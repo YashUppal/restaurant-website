@@ -1,0 +1,65 @@
+/* nav[class="navbar navbar-expand-lg navbar-light"] {
+    font-family: 'Alegreya Sans SC';
+    font-size: normal;
+    background-color: #A10C0E;
+    color: #FFD88E;
+}
+
+.navigation-bar {
+    color: white;
+} */
+
+body {
+    font-family: 'Alegreya Sans SC';
+}
+
+.navbar {
+    background-color: #A10C0E;
+}
+
+.navbar .navbar-brand{
+    color: #EEE697;
+}
+
+.navbar .navbar-brand:hover{
+    color: #FDFFC7;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #EEE697;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #FDFFC7;
+}
+
+
+.jumbo-image{
+
+    margin-top: 3%;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/4/46/Kumamoto_kakuni_ramen_by_woinary_in_Yokohama%2C_Kanagawa.jpg);
+    background-size: cover;
+    height: 40%;
+    width: auto;
+    border-radius: 10px;
+}
+
+.text-center {
+    background-size: cover;
+    background: rgba(0,0,0,0.5);
+    margin-top: 8%;
+    text-align: center;
+    color: #ebd163;
+
+}
+
+.mid-box{
+    margin-top: 8%;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background: url('https://cdn.pixabay.com/photo/2015/05/13/16/16/noodle-soup-765706_960_720.jpg');
+    height: 40%;
+    border-radius: 10px;
+}
+
