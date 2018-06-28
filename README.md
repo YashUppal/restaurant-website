@@ -1,2 +1,2 @@
-# Restaurant website front-end, written in HTML & CSS.
+# Restaurant website front-end, designed using Bootstrap 4.
 
