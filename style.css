@@ -1,81 +1,14 @@
-/* nav[class="navbar navbar-expand-lg navbar-light"] {
-    font-family: 'Alegreya Sans SC';
-    font-size: normal;
-    background-color: #A10C0E;
-    color: #FFD88E;
-}
-
-.navigation-bar {
-    color: white;
-} */
-
-/*restyle*/
-
-/*body {
-    font-family: 'Alegreya Sans SC';
-}
-
-.navbar {
-    background-color: #A10C0E;
-}
-
-.navbar .navbar-brand{
-    color: #EEE697;
-}
-
-.navbar .navbar-brand:hover{
-    color: #FDFFC7;
-}
-
-.navbar .navbar-nav .nav-link {
-    color: #EEE697;
-}
-
-.navbar .navbar-nav .nav-link:hover {
-    color: #FDFFC7;
-}
-
-
-.jumbo-image{
-
-    margin-top: 3%;
-    background: url(https://upload.wikimedia.org/wikipedia/commons/4/46/Kumamoto_kakuni_ramen_by_woinary_in_Yokohama%2C_Kanagawa.jpg);
-    background-size: cover;
-    height: 40%;
-    width: auto;
-    border-radius: 10px;
-}
-
-.text-center {
-
-    background-size: cover;
-    background: rgba(0,0,0,0.5);
-    margin-top: 8%;
-    text-align: center;
-    color: #ebd163;
-
-}
-
-.mid-box{
-    background: no-repeat;
-    margin-top: 8%;
-    text-align: center;
-    background-size: cover;
-    background-position: center;
-    background: url('https://cdn.pixabay.com/photo/2015/05/13/16/16/noodle-soup-765706_960_720.jpg');
-    height: 40%;
-    border-radius: 10px;
-}
-
-*/
 
 
 /*new styling*/
-
+    
+body {
+    background-color:#FFE078;;
+}
 
 .navigation-bar {
     background-color: #8E0702;
-    font-family: 'Alegreya Sans SC';
+    font-family: 'Asul', sans-serif;
 
 }
 
@@ -101,8 +34,6 @@
     background-color: #8E0702;
     border: 2px solid #FFE078;
     background-color: #8e0702;
-background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 #ramen-emoji {
@@ -121,8 +52,8 @@ i.em-svg.em-ramen {
     text-align: center;
     word-wrap: normal;
     font-size: 5rem;
-    font-weight: 600;
-    font-family: 'Alegreya Sans SC';
+    font-weight: 500;
+    line-height: 0.9em;
 }
 
 .jumbotron-fluid {
@@ -132,3 +63,73 @@ i.em-svg.em-ramen {
 
 }
 
+.font1 {
+font-family: 'Kavoon', cursive;
+}
+
+.font2 {
+    font-family: 'Asul', sans-serif;
+}
+
+
+.container-fluid{
+
+    background-color: #8e0702;
+    color: #FFE078;
+    font-size: 1.3em;
+    font-weight: 600;
+    font-family: 'Asul',sans-serif;
+    padding: 2rem;
+    border-top: 10px solid #FFE078;
+
+}
+
+.container-fluid h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.container-fluid p {
+    text-align: justify;
+    font-size: 1em;
+}
+
+.container-fluid ul {
+    list-style: inside;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+.row {
+    text-align: center;
+}
+
+.footer {
+    border-top: 10px solid #FFE078;
+
+}
+
+@media only screen and (max-width: 321px) {
+
+
+.brand-logo{
+    content=" ";
+    background-color: black;
+    height:auto;
+    width: auto;
+    background-color: #8E0702;
+    border: 2px solid #FFE078;
+    background-color: #8e0702;
+}
+
+.navigation-bar.footer ul {
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+}
+
+
+}
