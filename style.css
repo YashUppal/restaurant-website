@@ -9,7 +9,9 @@
     color: white;
 } */
 
-body {
+/*restyle*/
+
+/*body {
     font-family: 'Alegreya Sans SC';
 }
 
@@ -45,6 +47,7 @@ body {
 }
 
 .text-center {
+
     background-size: cover;
     background: rgba(0,0,0,0.5);
     margin-top: 8%;
@@ -54,6 +57,7 @@ body {
 }
 
 .mid-box{
+    background: no-repeat;
     margin-top: 8%;
     text-align: center;
     background-size: cover;
@@ -61,5 +65,70 @@ body {
     background: url('https://cdn.pixabay.com/photo/2015/05/13/16/16/noodle-soup-765706_960_720.jpg');
     height: 40%;
     border-radius: 10px;
+}
+
+*/
+
+
+/*new styling*/
+
+
+.navigation-bar {
+    background-color: #8E0702;
+    font-family: 'Alegreya Sans SC';
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FFE078;
+    margin: 1rem;
+    text-transform: uppercase;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #FFFFFF;
+    margin: 1rem;
+    text-transform: uppercase;
+    
+}
+
+.brand-logo{
+    content=" ";
+    background-color: black;
+    height:425px;
+    width: 320px;
+    background-color: #8E0702;
+    border: 2px solid #FFE078;
+    background-color: #8e0702;
+background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+#ramen-emoji {
+    width: 100%;
+    text-align: center;
+}
+
+i.em-svg.em-ramen {
+    font-size: 6rem;
+    margin-top: 50px;
+}
+
+#brand-name h2{
+    text-transform: uppercase;
+    color: #FFE078;
+    text-align: center;
+    word-wrap: normal;
+    font-size: 5rem;
+    font-weight: 600;
+    font-family: 'Alegreya Sans SC';
+}
+
+.jumbotron-fluid {
+    background: url("https://cdn.pixabay.com/photo/2018/03/15/10/33/bars-ramen-in-saigon-3227779_960_720.jpg") no-repeat;
+    background-size:cover;
+    
+
 }
 
